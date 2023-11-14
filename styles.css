@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background: #040506;
+    color: #FFF;
+    overflow: hidden;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    font-family: "Jura", sans-serif;
+    font-size: 12rem;
+    letter-spacing: 5px;
+    text-shadow: 0 1px 5px #999;
+    transition: 2s all ease;
+    opacity: 0;
+}
+
+.sub1,
+.sub2 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    margin-top: 2rem;
+    text-shadow: 0 1px 5px #999;
+    transition: 2s all ease;
+    opacity: 0;
+}
+
+.sub1 {
+    top: 45%;
+    transition-delay: 1.5s;
+}
+
+.sub2 {
+    top: 51%;
+    transition-delay: 2.5s;
+}
